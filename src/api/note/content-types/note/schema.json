@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notes",
+  "info": {
+    "singularName": "note",
+    "pluralName": "notes",
+    "displayName": "Note",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "width": {
+      "type": "enumeration",
+      "enum": [
+        "quarter",
+        "third",
+        "half",
+        "three-quarters",
+        "full"
+      ],
+      "default": "quarter"
+    },
+    "Name": {
+      "type": "text"
+    }
+  }
+}
