@@ -2,7 +2,7 @@
   "name": "notes-back",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Notes to self by Marco Polo",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -21,7 +21,7 @@
     "pg-connection-string": "^2.5.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Marco Polo Creative Agency"
   },
   "strapi": {
     "uuid": "96a38f67-1d15-4883-975e-2e37413a53ea"
