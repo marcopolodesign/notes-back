@@ -7,8 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"  
-  
+    "strapi": "strapi"
   },
   "dependencies": {
     "@strapi/plugin-documentation": "^4.5.5",
@@ -17,6 +16,7 @@
     "@strapi/plugin-users-permissions": "4.5.3",
     "@strapi/strapi": "4.5.3",
     "better-sqlite3": "7.4.6",
+    "docker": "^1.0.0",
     "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0"
   },
