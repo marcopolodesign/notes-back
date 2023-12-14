@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "description": "Notes to self by Marco Polo",
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
+    "develop": "strapi develop --watch-admin ",
+    "start": "strapi start NODE_ENV=production",
     "build": "strapi build",
     "strapi": "strapi"
   },
